@@ -1,0 +1,99 @@
+<html>
+    <style>
+      body{
+          text-align: center;
+          background-color: gray;
+          box-shadow: 1px 2px 3px black;
+          border: 3px outset;
+      }
+      img{
+          width: 250px;
+          height: 250px;
+          border: 2px solid black;
+          box-shadow: 1px 2px 10px black;
+      }
+        span{
+            position: relative;
+            top: 5%;
+            font-size: 40px;
+            box-shadow: 1px 5px 5px black;
+            border: 2px outset;
+     }
+     h2{
+         font-size:40px;
+         border:2px ridge black;
+         box-shadow: 1px 2px 4px black;
+    }
+     .text h1 {
+         margin: auto;
+         letter-spacing: 1px;
+         white-space: nowrap;
+         overflow: hidden;
+         animation: typing 5s steps(40, end),
+         blink-caret 2s step-end infinite;
+     }
+     @keyframes typing {
+         from{ width: 0;}
+        to{width: 100%;}
+     }
+     @keyframes blink-caret {
+         from, to {border-color: transparent}
+         50%{ border-color: black}
+     }
+     p{
+        font-family: "Lucida Console", "Courier New", monospace;
+        font-size: 20px;
+        color: white;
+     }
+     ion-icon{
+        width: 55px;
+        height: 55px;
+        border: 2px solid;
+        border-radius: 90px;
+        transition: transform .1s;
+        cursor: pointer;
+        box-shadow: 1px 5px 5px black;
+        color: black;
+     }
+     ion-icon:hover{
+        transform: scale(2.0);
+    }
+    </style>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <div class="text anim">
+    <title>
+        PERSONAL INFORMATION
+    </title>
+    </div>
+    <body>
+        <div class="text anim">
+        <h1>
+            PERSONAL INFORMATION
+        </h1>
+        <p>Even if it's hard, Just do it!</p>
+        </div>
+        <img src="Y.jpg">
+        <h2>Ismael V. Valerio</h2>
+        <div class="spann">
+        <span style="background-color: black; color: white; border: 1px ridge white;">Place Of Birth:</span>
+        <span style="background-color:aliceblue; color: black; border: 1px rigde black;">Rodriguez, Rizal</span>
+        <br>
+        <br>
+        <span style="background-color: black; color: white; border: 1px ridge white;">Civil Status:</span>
+        <span style="background-color:aliceblue; color: black; border: 1px rigde black;">Single</span>
+        <br>
+        <br>
+        <span style="background-color: black; color: white; border: 1px ridge white;">Religion:</span>
+        <span style="background-color:aliceblue; color: black; border: 1px rigde black;">Roman Catholic</span>
+        <br>
+        <br>
+        <span style="background-color: black; color: white; border: 1px ridge white;">Height:</span>
+        <span style="background-color:aliceblue; color: black; border: 1px rigde black;">5'3</span>
+        <br>
+        <br>
+        </div>
+        <br>
+        <a href="intro.html"><ion-icon name="home"></a></ion-icon><ion-icon name="heart-circle"></ion-icon>
+    </body>
+</html>
